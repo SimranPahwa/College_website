@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> University project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100;1,200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+        
+    </head>
+
+    <body> 
+
+        <!---------Header-------> 
+        <section class="header">
+             <nav>
+                <a href="index.html"><img src="eduford_img/logo.png"></a>
+
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()" ></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT </a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+    
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="Showmenu()" ></i>
+            </nav>
+
+            <div class="text-box"> <h1>World's largest University</h1>
+            <p>Universiy a global beacon of academic excellence, where innovation, research, 
+                and  <br>diversity converge to shape the leaders of tomorrow." </p>
+            <a href="" class="hero-btn"> VISIT US TO KNOW MORE</a>
+            </div>
+ </section>
+
+
+
+
+
+
+
+        
+
+        <!---------Course-------> 
+
+<section class="COURSES">
+        <h1> Courses we offer</h1>
+        <p>Introduction to Computer Science<br>
+            Modern World History<br>
+            Environmental Science and Sustainability<br>
+            Financial Accounting Principles<br>
+            Introduction to Psychology<Br>
+        </p>
+        <div class="row"> 
+
+            <div class="course-col"> 
+                 <h3>Intermediate</h3>
+                 <p>Introduction to Computer Science<br>
+                    Modern World History<br>
+                    Environmental Science and Sustainability<br>
+                    Financial Accounting Principles<br>
+                    Introduction to Psychology<Br> </p></div>
+
+            <div class="course-col"> 
+                <h3>Degree</h3>
+                  <p>Introduction to Computer Science<br>
+                        Modern World History<br>
+                        Environmental Science and Sustainability<br>
+                        Financial Accounting Principles<br>
+                        Introduction to Psychology<Br> </p></div>
+
+            <div class="course-col"> 
+                        <h3> Post Graduate Degree</h3>
+                    <p>Introduction to Computer Science<br>
+                            Modern World History<br>
+                            Environmental Science and Sustainability<br>
+                            Financial Accounting Principles<br>
+                            Introduction to Psychology<Br></p> </div>
+        </div>
+</section>
+
+
+
+
+        <!---------Campus-------> 
+        <section class="Campus">
+            <h1>Our Global Campus</h1>
+            <p>From state-of-the-art facilities to tranquil study nooks, 
+                the campus seamlessly blends modernity with a touch of natural beauty, <br> 
+                creating a conducive space for both learning and personal growth</p>
+                <div class="row"> 
+
+                <div class="campus-col"> 
+                        <img src="eduford_img/london.png">
+                        <div class="layer"> 
+                            <h3>LONDON</h3>
+                        </div>   </div> 
+                        <div class="campus-col"> 
+                            <img src="eduford_img/newyork.png">
+                            <div class="layer"> 
+                                <h3>NEW YORK</h3>
+                            </div>  </div> 
+                <div class="campus-col"> 
+                                <img src="eduford_img/washington.png">
+                                <div class="layer"> 
+                                    <h3>WASHINGTON</h3>
+                                </div>    </div> 
+
+             </div>
+        </section>
+
+
+
+        <!---------Facilities-------> 
+        <section class="facilities">
+            <h1> Our Facilities</h1>
+            <p>Our university is committed to providing a conducive learning environment
+            including modern classrooms equipped with audio-visual aids, libraries, 
+               <br> and cutting-edge laboratories for hands-on research experiences.</p>
+             <div class="row">
+
+                <div class="facilities-col">
+                    <img src="eduford_img/library.png">
+                    <h3>World Class library</h3>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="eduford_img/basketball.png">
+                    <h3>Well equipped playgrounds</h3>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="eduford_img/cafeteria.png">
+                    <h3>Hygenic and healthy food</h3>
+                </div>
+                
+        
+        </div>
+        
+      </section>
+
+            
+        <!---------call to action-------> 
+        <section class="cta">
+            <h1>Enroll for our various online courses from <br>
+                anywhere in the world</h1>
+                <a href="" class="hero-btn">CONTACT US</a>
+
+        </section>
+
+
+        <!---------footer-------> 
+        <section class="footer">
+            <h4> About Us </h4>
+            <p>
+                 With cutting-edge facilities, dedicated faculty, and a vibrant campus life, we empower students to thrive in their educational journey.<br>
+                 we pride ourselves on fostering academic excellence and holistic development
+
+            </p>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <!---------Javascript for toggle menu-------> 
+        <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function Showmenu(){
+            navLinks.style.right="0";}
+
+            function hidemenu(){
+            navLinks.style.right="-200px";
+            
+        }
+        </script>
+    </body>
